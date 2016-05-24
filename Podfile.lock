@@ -1,0 +1,62 @@
+PODS:
+  - AFNetworking (2.5.0):
+    - AFNetworking/NSURLConnection (= 2.5.0)
+    - AFNetworking/NSURLSession (= 2.5.0)
+    - AFNetworking/Reachability (= 2.5.0)
+    - AFNetworking/Security (= 2.5.0)
+    - AFNetworking/Serialization (= 2.5.0)
+    - AFNetworking/UIKit (= 2.5.0)
+  - AFNetworking/NSURLConnection (2.5.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.0)
+  - AFNetworking/Security (2.5.0)
+  - AFNetworking/Serialization (2.5.0)
+  - AFNetworking/UIKit (2.5.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - AFOAuth2Client (0.1.1):
+    - AFNetworking (~> 2.0)
+  - CrittercismSDK (5.0.7)
+  - FlurrySDK (5.4.0):
+    - FlurrySDK/FlurrySDK (= 5.4.0)
+  - FlurrySDK/FlurrySDK (5.4.0)
+  - Mantle (1.5.1):
+    - Mantle/extobjc (= 1.5.1)
+  - Mantle/extobjc (1.5.1)
+  - MBProgressHUD (0.9)
+  - UICKeyChainStore (1.1.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.0)
+  - AFOAuth2Client (from `git://github.com/mlwelles/AFOAuth2Client.git`)
+  - CrittercismSDK
+  - FlurrySDK
+  - Mantle (~> 1.0)
+  - MBProgressHUD (~> 0.8)
+  - UICKeyChainStore
+
+EXTERNAL SOURCES:
+  AFOAuth2Client:
+    :git: git://github.com/mlwelles/AFOAuth2Client.git
+
+CHECKOUT OPTIONS:
+  AFOAuth2Client:
+    :commit: 759fda872b137474c605bcd7c07f704113b08761
+    :git: git://github.com/mlwelles/AFOAuth2Client.git
+
+SPEC CHECKSUMS:
+  AFNetworking: 0f54cb5d16ce38c1b76948faffb8d5fb705021c7
+  AFOAuth2Client: 05536bd4175add72e7efcb6b749d4e9685ed02f7
+  CrittercismSDK: 1f1a91c7a51ca8044e675765bde5d2aa97295b1d
+  FlurrySDK: bed9e5598353f867508d164795a451e3ada92cb6
+  Mantle: d7c5ac734579ec751c58fecbf56189853056c58c
+  MBProgressHUD: 2038dbcf3dce73215abed6001657043d53aa79a8
+  UICKeyChainStore: 257d869d42527b9853ebb11d6dc3ac377b270e72
+
+COCOAPODS: 0.35.0

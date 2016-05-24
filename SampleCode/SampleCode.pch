@@ -1,0 +1,32 @@
+//
+//  Sample Code.pch
+//
+//  Created by NUS Technology on 12/1/14.
+//  Copyright (c) 2014 Sample Code. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <Mantle/Mantle.h>
+
+#import "APIClient.h"
+#import "UICKeyChainStore.h"
+#import <AFNetworking/AFNetworking.h>
+#import "Macros.h"
+#import "Constants.h"
+#import "CoreDataManager.h"
+#import "Localizations.h"
+#import "UserManager.h"
+#import "MBProgressHUD.h"
+#import "StoryboardManager.h"
+#import "Utilities.h"
+#import "AppConfig.h"
+#import "TextField.h"
+
+// Base View Controller
+#import "BaseViewController.h"
+#import "BaseTableViewController.h"
+
+// Models
+#import "User.h"
+#import "User+Helper.h"
